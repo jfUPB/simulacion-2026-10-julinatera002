@@ -39,7 +39,7 @@ Actividad #4
        }
 <img width="642" height="227" alt="image" src="https://github.com/user-attachments/assets/c66ecc9d-1b93-4163-af15-f9428c36da4a" />
 
-Cambie La variable fija X a Y para que la imagen se desplace sobre el eje Y y así generar una 
+
 
 
 ## Bitácora de aplicación 
@@ -47,3 +47,4 @@ Cambie La variable fija X a Y para que la imagen se desplace sobre el eje Y y as
 
 
 ## Bitácora de reflexión
+
