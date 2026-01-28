@@ -39,12 +39,13 @@ Actividad #4
        }
 <img width="642" height="227" alt="image" src="https://github.com/user-attachments/assets/c66ecc9d-1b93-4163-af15-f9428c36da4a" />
 
-
+Cambie el eje en que se desplaza la figura y 
 
 
 ## Bitácora de aplicación 
-
+Conjunto de reglas que producen multiples salidas
 
 
 ## Bitácora de reflexión
+
 
