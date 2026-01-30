@@ -69,10 +69,10 @@ Actividad #4
          // Distribución uniforme entre 0 y 640
          let x = random(40, 600);
          
-         noStroke();
-         fill(0, 10);
-         circle(320,y , 16);
-       }
+        noStroke();
+        fill(0, 10);
+        circle(x, 120, 16);
+    }
 <img width="949" height="334" alt="image" src="https://github.com/user-attachments/assets/0c502a49-e9b9-448f-896a-3223357122af" />
 
 
@@ -168,6 +168,7 @@ Conjunto de reglas que producen multiples salidas
 
 
 ## Bitácora de reflexión
+
 
 
 
