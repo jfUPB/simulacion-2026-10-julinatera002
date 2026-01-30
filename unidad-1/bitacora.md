@@ -24,8 +24,9 @@ Y tuvimos dos hipotesis, la primera es que la figura no se iba a mover y la segu
 
 Actividad #3
 - Una distribución uniforme es cuando la aleatoriedad de los numeros tienen la misma probabilidad a diferencia de una no uniforme en donde puede que uno o más numeros tengan más probabilidad.
-  let x, y;
 
+          let x, y;
+  
        function setup() {
          createCanvas(400, 400);
          background(220);
@@ -58,21 +59,108 @@ Actividad #3
 
 Actividad #4
 
+       let x;
        function setup() {
          createCanvas(640, 240);
          background(255);
        }
 
        function draw() {
-         //{!1} A normal distribution with mean 320 and standard deviation 60
-         let y = randomGaussian(120, 20);
+         // Distribución uniforme entre 0 y 640
+         let x = random(40, 600);
+         
          noStroke();
          fill(0, 10);
          circle(320,y , 16);
        }
-<img width="642" height="227" alt="image" src="https://github.com/user-attachments/assets/c66ecc9d-1b93-4163-af15-f9428c36da4a" />
+<img width="949" height="334" alt="image" src="https://github.com/user-attachments/assets/0c502a49-e9b9-448f-896a-3223357122af" />
 
-Cambie el eje en que se desplaza la figura y 
+
+Cambié el randomGaussian() por un random() lo que permitirá una distribucion uniforme entre 40 y 600.
+
+Enlace a Sketch: https://editor.p5js.org/julinatera002/sketches/v88tuFsUr
+
+Actividad #5
+
+    let x;
+
+    function setup() {
+      createCanvas(640, 240);
+      background(255);
+
+      // Empezamos en el centro
+      x = width / 2;
+    }
+
+    function draw() {
+
+      // Dibujar círculo en la posición actual
+      noStroke();
+      fill(0, 10);
+      circle(x, 120, 16);
+
+      // ----------------------------
+      // Lévy flight: pasos pequeños + saltos raros
+      // ----------------------------
+
+      // Genera un número aleatorio entre 0 y 1
+      let r = random(1);
+
+    // Tamaño del paso (cola pesada)
+      let stepSize;
+
+      if (r < 0.9) {
+    // 90% del tiempo: pasos pequeños
+    stepSize = random(-5, 5);
+      } else {
+    // 10% del tiempo: salto largo
+    stepSize = random(-80, 80);
+      }
+
+      // Actualizar posición
+      x += stepSize;
+
+     // Evitar que se salga del canvas
+     x = constrain(x, 0, width);
+    }
+
+La funcion random() escoje un numero alazar entre 0 y 1, si el numero es menor a 0.9 entonces se desplazara entre -5 y 5 pasos pero si el numero es mayor o igual a 0.9 entonces se desplazara entre -80 y 80 pasos
+
+Enlace a Sketch: https://editor.p5js.org/julinatera002/sketches/lGaPRXHy6
+
+Actividad #6
+
+    let t = 0;
+    let x = 0;
+
+    function setup() {
+    createCanvas(360, 240);
+     background(255);
+    }
+
+    function draw() {
+      let y = noise(t) * height;
+
+      fill(0, 20);
+      noStroke();
+      circle(x, y, 10);
+
+      x += 2;
+      t += 0.01;
+
+      if (x > width) {
+        x = 0;
+        background(255);
+      }
+    }
+
+
+Use un noise para mover un walker que genere diferentes patrones cada vez que se genere
+
+
+<img width="541" height="350" alt="image" src="https://github.com/user-attachments/assets/d1d344d9-a359-4867-974a-3aecb4992c8d" />
+
+Enlace Sketch: https://editor.p5js.org/julinatera002/sketches/Wd-AEXEBA
 
 
 ## Bitácora de aplicación 
@@ -80,6 +168,7 @@ Conjunto de reglas que producen multiples salidas
 
 
 ## Bitácora de reflexión
+
 
 
 
