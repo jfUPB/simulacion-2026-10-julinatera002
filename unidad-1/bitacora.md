@@ -168,10 +168,117 @@ Enlace Sketch: https://editor.p5js.org/julinatera002/sketches/Wd-AEXEBA
 
 
 ## Bitácora de aplicación 
-Conjunto de reglas que producen multiples salidas
+- sistema basado en un conjunto de reglas o algoritmos que, mediante procesos como la aleatoriedad, produce múltiples patrones posibles
+    
+        let walker;
+        
+        // Variable interactiva: tamaño del brush
+        let brushSize = 10;
+        
+        function setup() {
+          createCanvas(640, 400);
+          background(255);
+        
+          walker = new HybridWalker();
+        }
+        
+        function draw() {
+          walker.update();
+          walker.display();
+        }
+        
+        // ===============================
+        // INTERACTIVIDAD CON TECLADO
+        // ===============================
+        function keyPressed() {
+    
+      // Aumentar tamaño del brush
+      if (key === '+') {
+        brushSize += 5;
+      }
+    
+      // Reducir tamaño del brush
+      if (key === '-') {
+        brushSize = max(5, brushSize - 5);
+      }
+    
+      // Limpiar pantalla
+       if (key === 'c' || key === 'C') {
+        background(255);
+      }
+    }
+    
+    // ===============================
+    // WALKER HÍBRIDO (3 conceptos)
+    // ===============================
+    class HybridWalker {
+      constructor() {
+        this.x = width / 2;
+        this.y = height / 2;
+
+    // Variables Perlin Noise
+    this.tx = random(1000);
+    this.ty = random(2000);
+      }
+    
+      update() {
+
+    // ============================
+    // 1. RANDOM WALK (pasos pequeños)
+    // ============================
+    let stepX = random(-2, 2);
+    let stepY = random(-2, 2);
+
+    // ============================
+    // 2. PERLIN NOISE (movimiento suave)
+    // ============================
+    let noiseX = map(noise(this.tx), 0, 1, -1.5, 1.5);
+    let noiseY = map(noise(this.ty), 0, 1, -1.5, 1.5);
+
+    this.tx += 0.01;
+    this.ty += 0.01;
+
+    // ============================
+    // 3. LÉVY FLIGHT (saltos raros)
+    // ============================
+    let levyJump = 0;
+
+    if (random(1) > 0.97) {
+      levyJump = random(-80, 80);
+    }
+
+    // ============================
+    // COMBINACIÓN FINAL
+    // ============================
+    this.x += stepX + noiseX + levyJump;
+    this.y += stepY + noiseY + random(-levyJump, levyJump);
+
+    // Mantener dentro del canvas
+    this.x = constrain(this.x, 0, width);
+    this.y = constrain(this.y, 0, height);
+      }
+    
+      display() {
+        noStroke();
+
+    // Transparencia fija para efecto artístico
+    fill(0, 20);
+
+    // Tamaño controlado por el usuario
+    circle(this.x, this.y, brushSize);
+
+      }
+    }
+
+<img width="962" height="597" alt="image" src="https://github.com/user-attachments/assets/181ada1f-862a-456a-90e6-3a6b2dc62f28" />
+
+Enlace Sketch: https://editor.p5js.org/julinatera002/sketches/yNioJyuM_
+
+
 
 
 ## Bitácora de reflexión
+
 
 
 
