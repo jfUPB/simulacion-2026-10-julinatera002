@@ -126,6 +126,10 @@ Actividad #5
 
 La funcion random() escoje un numero alazar entre 0 y 1, si el numero es menor a 0.9 entonces se desplazara entre -5 y 5 pasos pero si el numero es mayor o igual a 0.9 entonces se desplazara entre -80 y 80 pasos
 
+
+<img width="951" height="349" alt="image" src="https://github.com/user-attachments/assets/4206e0d7-2d54-4de2-95c2-767ddbcd93a4" />
+
+
 Enlace a Sketch: https://editor.p5js.org/julinatera002/sketches/lGaPRXHy6
 
 Actividad #6
@@ -168,6 +172,7 @@ Conjunto de reglas que producen multiples salidas
 
 
 ## Bitácora de reflexión
+
 
 
 
