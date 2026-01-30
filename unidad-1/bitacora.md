@@ -130,7 +130,7 @@ La funcion random() escoje un numero alazar entre 0 y 1, si el numero es menor a
 <img width="951" height="349" alt="image" src="https://github.com/user-attachments/assets/4206e0d7-2d54-4de2-95c2-767ddbcd93a4" />
 
 
-Enlace a Sketch: https://editor.p5js.org/julinatera002/sketches/lGaPRXHy6
+[Enlace a Sketch] (https://editor.p5js.org/julinatera002/sketches/lGaPRXHy6)
 
 Actividad #6
 
@@ -164,7 +164,7 @@ Use un noise para mover un walker que genere diferentes patrones cada vez que se
 
 <img width="541" height="350" alt="image" src="https://github.com/user-attachments/assets/d1d344d9-a359-4867-974a-3aecb4992c8d" />
 
-Enlace Sketch: https://editor.p5js.org/julinatera002/sketches/Wd-AEXEBA
+[Enlace Sketch] (https://editor.p5js.org/julinatera002/sketches/Wd-AEXEBA)
 
  
 
@@ -288,6 +288,7 @@ Enlace Sketch: https://editor.p5js.org/julinatera002/sketches/Wd-AEXEBA
 4. El concepto de Levy Flight me permite generar saltos largos ocacionalmente, la alateoriedad permite que dicho salto se genere.
 
 5. El walk describe el movimiento de un agente y su desplazo y el walk en levy flight se caracteriza por dar pasos pequeños pero ocacionalmente. 
+
 
 
 
