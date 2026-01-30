@@ -24,36 +24,36 @@ Y tuvimos dos hipotesis, la primera es que la figura no se iba a mover y la segu
 
 Actividad #3
 - Una distribución uniforme es cuando la aleatoriedad de los numeros tienen la misma probabilidad a diferencia de una no uniforme en donde puede que uno o más numeros tengan más probabilidad.
-        let x, y;
+  let x, y;
 
-function setup() {
-  createCanvas(400, 400);
-  background(220);
+       function setup() {
+         createCanvas(400, 400);
+         background(220);
 
-  x = width / 2;
-  y = height / 2;
-}
+         x = width / 2;
+         y = height / 2;
+       }
 
-function draw() {
-  stroke(0);
-  point(x, y);
+       function draw() {
+         stroke(0);
+         point(x, y);
 
-  let step = random(1);
+         let step = random(1);
 
-  // Distribución no uniforme: más probabilidad hacia la derecha
-  if (step < 0.5) {
-    x += 1; // 50% derecha
-  } 
-  else if (step < 0.7) {
-    x -= 1; // 20% izquierda
-  } 
-  else if (step < 0.85) {
-    y += 1; // 15% abajo
-  } 
-  else {
-    y -= 1; // 15% arriba
-  }
-}
+         // Distribución no uniforme: más probabilidad hacia la derecha
+         if (step < 0.5) {
+           x += 1; // 50% derecha
+         } 
+         else if (step < 0.7) {
+           x -= 1; // 20% izquierda
+         } 
+         else if (step < 0.85) {
+           y += 1; // 15% abajo
+         } 
+         else {
+           y -= 1; // 15% arriba
+         }
+       }
 
 
 Actividad #4
@@ -80,6 +80,7 @@ Conjunto de reglas que producen multiples salidas
 
 
 ## Bitácora de reflexión
+
 
 
 
