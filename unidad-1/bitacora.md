@@ -167,6 +167,20 @@ Use un noise para mover un walker que genere diferentes patrones cada vez que se
 Enlace Sketch: https://editor.p5js.org/julinatera002/sketches/Wd-AEXEBA
 
 
+Actividad #8
+
+1. Random genera números alcázares, es decir, puede generar un 2 seguido de un 8, esto permite que el movimiento sea más brusco, en cambio el perlin noise, genera un movimiento más suave.
+   El noise lo usaría para generar un movimiento más natural y organico y el Random para un movimiento más aleatorio.
+
+2. La distribucion uniforme tiene la misma probabilidad de generer los numeros aleatorios, es decir, en un rango de 1 a 10 la probabilidad de que salga el 5 y el 10 es la misma, en cambio,
+   La distribucion normal aumenta la probabilidad en la media del rango, es decir, en un rango de 1 a 10, la probabilidad de que salga 5 es mcho mayor a que salga 10.
+
+3. La aleatoriedad permite que cada pieza sea única, aunque se ejecute el codigo varias veces la obra será diferente y tambien permite resultados inesperados al combinar reglas estructuradas con elementos aleatorios.
+
+4. El concepto de Levy Flight me permite generar saltos largos ocacionalmente, la alateoriedad permite que dicho salto se genere.
+
+5. El walk describe el movimiento de un agente y su desplazol el walker en levy flight 
+
 ## Bitácora de aplicación 
 - sistema basado en un conjunto de reglas o algoritmos que, mediante procesos como la aleatoriedad, produce múltiples patrones posibles
     
@@ -187,9 +201,9 @@ Enlace Sketch: https://editor.p5js.org/julinatera002/sketches/Wd-AEXEBA
           walker.display();
         }
         
-        // ===============================
+       
         // INTERACTIVIDAD CON TECLADO
-        // ===============================
+     
         function keyPressed() {
     
       // Aumentar tamaño del brush
@@ -208,9 +222,9 @@ Enlace Sketch: https://editor.p5js.org/julinatera002/sketches/Wd-AEXEBA
       }
         }
         
-        // ===============================
+       
         // WALKER HÍBRIDO (3 conceptos)
-        // ===============================
+      
         class HybridWalker {
           constructor() {
             this.x = width / 2;
@@ -223,37 +237,36 @@ Enlace Sketch: https://editor.p5js.org/julinatera002/sketches/Wd-AEXEBA
     
       update() {
 
-        // ============================
+      
         // 1. RANDOM WALK (pasos pequeños)
-        // ============================
+      
         let stepX = random(-2, 2);
         let stepY = random(-2, 2);
     
-        // ============================
+     
         // 2. PERLIN NOISE (movimiento suave)
-        // ============================
+      
         let noiseX = map(noise(this.tx), 0, 1, -1.5, 1.5);
         let noiseY = map(noise(this.ty), 0, 1, -1.5, 1.5);
     
         this.tx += 0.01;
         this.ty += 0.01;
     
-        // ============================
+       
         // 3. LÉVY FLIGHT (saltos raros)
-        // ============================
+       
         let levyJump = 0;
     
         if (random(1) > 0.97) {
           levyJump = random(-80, 80);
         }
     
-        // ============================
+       
         // COMBINACIÓN FINAL
-        // ============================
+       
         this.x += stepX + noiseX + levyJump;
         this.y += stepY + noiseY + random(-levyJump, levyJump);
     
-        // Mantener dentro del canvas
         this.x = constrain(this.x, 0, width);
         this.y = constrain(this.y, 0, height);
           }
@@ -261,10 +274,8 @@ Enlace Sketch: https://editor.p5js.org/julinatera002/sketches/Wd-AEXEBA
       display() {
         noStroke();
 
-        // Transparencia fija para efecto artístico
         fill(0, 20);
     
-        // Tamaño controlado por el usuario
         circle(this.x, this.y, brushSize);
 
       }
@@ -278,6 +289,7 @@ Enlace Sketch: https://editor.p5js.org/julinatera002/sketches/yNioJyuM_
 
 
 ## Bitácora de reflexión
+
 
 
 
