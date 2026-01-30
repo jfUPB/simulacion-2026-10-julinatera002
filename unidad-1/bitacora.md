@@ -270,7 +270,7 @@ Enlace Sketch: https://editor.p5js.org/julinatera002/sketches/Wd-AEXEBA
 
 <img width="962" height="597" alt="image" src="https://github.com/user-attachments/assets/181ada1f-862a-456a-90e6-3a6b2dc62f28" />
 
-Enlace Sketch: https://editor.p5js.org/julinatera002/sketches/yNioJyuM_ 
+[Enlace Sketch](https://editor.p5js.org/julinatera002/sketches/yNioJyuM_) 
 
 
 
@@ -288,6 +288,7 @@ Enlace Sketch: https://editor.p5js.org/julinatera002/sketches/yNioJyuM_
 4. El concepto de Levy Flight me permite generar saltos largos ocacionalmente, la alateoriedad permite que dicho salto se genere.
 
 5. El walk describe el movimiento de un agente y su desplazo y el walk en levy flight se caracteriza por dar pasos pequeños pero ocacionalmente. 
+
 
 
 
