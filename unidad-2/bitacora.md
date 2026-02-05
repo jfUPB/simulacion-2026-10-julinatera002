@@ -11,9 +11,10 @@ Actividad #5
   2. Normalize()
 
 Actividad #6
-                          let colorRed;
-                  let interP = 0;
-                  let dir = 1;
+                      
+            let colorRed;
+            let interP = 0;
+            let dir = 1;
                   
             function setup() {
                 createCanvas(500, 500);
@@ -56,5 +57,6 @@ Actividad #6
 
 
 ## Bitácora de reflexión
+
 
 
