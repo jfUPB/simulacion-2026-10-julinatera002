@@ -56,11 +56,15 @@ Actividad #6
               pop();
           }
 
+Actuvidad #7
+1. 
+
 ## Bitácora de aplicación 
 
 
 
 ## Bitácora de reflexión
+
 
 
 
