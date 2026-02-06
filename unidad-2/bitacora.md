@@ -1,4 +1,5 @@
 # Unidad 2
+https://juanferfranco.github.io/simulacion-2026-10/units/unit2/
 
 ## Bitácora de proceso de aprendizaje
 Actividad #4
@@ -57,6 +58,7 @@ Actividad #6
 
 
 ## Bitácora de reflexión
+
 
 
 
