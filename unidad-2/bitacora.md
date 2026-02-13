@@ -149,8 +149,7 @@ Actuvidad #7
             }
             
             function draw() {
-              // No limpiamos → rastro
-              // background(255);
+              
             
               // Dirección hacia el mouse
               let mouse = createVector(mouseX, mouseY);
@@ -160,21 +159,21 @@ Actuvidad #7
             
               acceleration = dir;
             
-              // Motion 101
+              
               velocity.add(acceleration);
               velocity.limit(4);
               position.add(velocity);
             
-              // Mantener dentro del canvas
+              
               wrapAround();
             
-              // Dibujo
+              
               noStroke();
               fill(0, 25);
               circle(position.x, position.y, r * 2);
             }
             
-            // ------------------
+            
             
             function keyPressed() {
               if (key === '+') {
@@ -201,6 +200,7 @@ https://editor.p5js.org/julinatera002/sketches/px0ow-I8B
 
 
 ## Bitácora de reflexión
+
 
 
 
