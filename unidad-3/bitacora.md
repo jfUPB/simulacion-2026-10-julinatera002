@@ -5,7 +5,9 @@ https://juanferfranco.github.io/simulacion-2026-10/units/unit3/
 
 
 ## Bitácora de aplicación 
-1. Juanito está entrenando en una pista 
+1. Juanito está entrenando en una pista pero empieza a llover y aparecen charcos de agua en la pista que juanito debe evitar. El carro se mueve a diferentes objetivos de la pista lo que hace que el carro se mueva mediante fuerzas sobre la pista, la hacer click sobre la pista se coloca un charco, de este se deriva un vector que tiene como origen el centro del charco y direccion hacia el carro, cuando el carro está a cierta distancia del vector del charco lo evita.
+
+2. 
 
         let posicion;
         let velocidad;
@@ -221,6 +223,9 @@ https://juanferfranco.github.io/simulacion-2026-10/units/unit3/
           circle(30, 0, 20);
           pop();
         }
+3. https://editor.p5js.org/julinatera002/sketches/Bia5J1Zwi
+4. <img width="799" height="795" alt="image" src="https://github.com/user-attachments/assets/f7a51e1e-deae-438f-b35b-5b0dcb499cd7" />
 
 ## Bitácora de reflexión
+
 
