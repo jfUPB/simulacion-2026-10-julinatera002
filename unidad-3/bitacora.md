@@ -227,5 +227,7 @@ https://juanferfranco.github.io/simulacion-2026-10/units/unit3/
 4. <img width="799" height="795" alt="image" src="https://github.com/user-attachments/assets/f7a51e1e-deae-438f-b35b-5b0dcb499cd7" />
 
 ## Bitácora de reflexión
+1. Motion 101 es una forma de pensar el movimiento como proceso dinámico acumulativo, o sea que no es como un orden que debe seguir el movimiento si no unas reglas que debe seguir para moverse.
+   Por ejemplo una hoja cayendo, el viento es una fuerza externa que cambia la direccion (dependiendo de la direccion en que esté soplando el viento) 
 
 
