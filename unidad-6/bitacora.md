@@ -414,6 +414,6 @@ ENLACE: https://editor.p5js.org/julinatera002/sketches/irs5sN-_W
 
 CAPTURA: <img width="1262" height="1164" alt="2026-04-17_09h36_55" src="https://github.com/user-attachments/assets/efe696dd-8a02-4761-870e-8fb2252c0898" />
 
-
+USO DE INTELIGENCIA ARTIFICIAL: Usé inteligencia artificial como apoyo técnico y para estructurar la presentación, pero todas las decisiones conceptuales, visuales y de interacción del proyecto son propias.
 
 ## Bitácora de reflexión
