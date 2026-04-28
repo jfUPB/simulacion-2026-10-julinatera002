@@ -13,9 +13,11 @@ PRESENTACIÓN: https://canva.link/op8h2jcd38u6jcq
 
 3. Análisis de su significado visual y comportamental: Visualmente, la palabra se presenta con letras separadas, brillantes y flotantes, reforzando una sensación de ligereza. Comportamentalmente, cada letra funciona como un cuerpo físico independiente que puede desplazarse, rotar y perder estabilidad. Esto permite que la palabra pase del orden a la dispersión, representando el carácter cambiante e inestable del viento.
 
-4. Moodboard o referencias:
+4. Moodboard o referencias: <img width="1920" height="1080" alt="Moodboard" src="https://github.com/user-attachments/assets/e7e439ea-b500-4eda-8120-960cb15feb94" />
 
-5. Bocetos:
+
+5. Bocetos: <img width="2653" height="1050" alt="Boceto_viento" src="https://github.com/user-attachments/assets/4b7773eb-cdfa-431a-a6af-cd4a5fcca558" />
+
 
 6. Mapa de decisiones: <img width="1448" height="1086" alt="Unid7_Mapa de dicisiones" src="https://github.com/user-attachments/assets/41c15b45-872d-493c-9047-6003d48863c9" />
 
