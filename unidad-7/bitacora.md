@@ -4,6 +4,9 @@
 
 
 ## Bitácora de aplicación 
+
+PRESENTACIÓN: https://canva.link/op8h2jcd38u6jcq
+
 1. Palabra elegida: **VIENTO**
 
 2. Justificación conceptual: La pieza parte de la palabra “VIENTO”, entendida como una fuerza invisible que se percibe por sus efectos. Por eso, las letras se comportan como cuerpos livianos afectados por corrientes de aire, ráfagas y turbulencias. La palabra no solo se lee, sino que se transforma en una experiencia visual, física y sonora.
@@ -22,7 +25,7 @@
 
 8. Explicación de la relación entre audio y comportamiento: El audio funciona como la fuerza que activa el viento dentro de la pieza. La amplitud del archivo sonoro controla la intensidad del movimiento: los sonidos suaves generan una brisa ligera, mientras que los picos de volumen producen ráfagas, expansión y mayor desorden en las letras. Así, el sonido no acompaña la imagen, sino que determina su comportamiento.
 
-9. Evidencia del uso de IA: 
+9. Evidencia del uso de IA: Usé inteligencia artificial como apoyo técnico y para estructurar la presentación, pero todas las decisiones conceptuales, visuales y de interacción del proyecto son propias.
 
 10. Código fuente:
 
